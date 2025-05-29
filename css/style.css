@@ -91,18 +91,18 @@ body{
 }
 
 /* 左邊人物圖片 */
-.hero-left{
+.hero-photo{
   max-width: 960px;
   flex: 1;
 }
-.hero-left img{
+.hero-photo img{
   display: block;
   width: 100%;
   height: auto;
 }
 
 /* 右邊背景與文字 */
-.hero-right {
+.hero-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,6 +154,9 @@ body{
   max-width: 100%;
   height: auto;
   display: block;
+}
+.info-title{
+  max-width: 636px;
 }
 .info h2{
   font-size: 28px;
