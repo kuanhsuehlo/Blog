@@ -62,6 +62,7 @@ body{
 }
 .header{
   margin: 0 auto;
+  line-height: 1.5;
 }
 .menu{
   display: flex;
@@ -92,8 +93,7 @@ body{
 
 /* 左邊人物圖片 */
 .hero-photo{
-  max-width: 960px;
-  flex: 1;
+  width: 50%;
 }
 .hero-photo img{
   display: block;
@@ -106,7 +106,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1;
+  width: 50%;
   background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true');
   background-position: center;
   background-size: cover;
@@ -315,8 +315,8 @@ body{
   .hero {
     flex-direction: column;
   }
-  .hero-left,
-  .hero-right {
+  .hero-photo,
+  .hero-title {
     width: 100%;
   }
 

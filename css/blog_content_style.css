@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*::before,*::after {
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: "Noto Sans",sans-serif;
+}
+.container{
+  margin: 0 auto;
+}
+.header{
+  margin: 0 auto;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+}
+.menu li{
+  width: 90px;
+  text-align: center;
+}
+.menu li a{
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  font-size: 28px;
+  padding: 24px 0px;
+}
+.menu li a:hover{
+  background: #000;
+  color: #fff;
+}
+.info{
+  width: 100%;
+  display: flex;
+  line-height: 1.5;
+}
+.info-content{
+  width: 100%;
+  }
+.About{
+  display: flex;
+}
+.About p{
+  font-size: 24px;
+  color:#0027D5;
+}
+.About .about-txt{
+  font-size: 16px;
+  background: #0027D5;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px;
+  margin-left: 8px;
+}
+.info img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.info-title{
+  max-width: 636px;
+}
+.info h2{
+  font-size: 28px;
+  font-weight: bold;
+  padding: 7px 0;
+}
+
+.info-item{
+  max-width: 50%;
+  margin-left: 24px;
+  margin-top: 207px;
+}
+.btn{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 16px;
+  padding: 8px 16px;
+  color: #4B4B4B;
+  font-size: 16px;
+}
+.btn:hover{
+  background: #000;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .info{
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+ .info .info-item {
+   outline: 1px solid;
+   max-width: 100%;
+   margin: 0 auto;
+   padding: 48px 0; 
+  }
+
+  .info-content {
+    width: 100%;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+  .info img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+
+.preface{
+  margin: 80px auto 48px auto;
+  max-width: 636px;
+  line-height: 1.5;
+}
+.preface h2 {
+  font-size: 28px;
+  color: #0027D5;
+  padding-bottom: 24px;
+  font-weight: bold;
+}
+.preface p{
+  font-weight: 500;
+}
+.array-a{
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+.array-b{
+  list-style: disc;
+  padding-left: 20px;
+}
+.array-c{
+  list-style: disc;
+  padding-left: 20px;
+  padding-bottom: 24px;
+}
+img{
+  width: 100%;
+  display: block;
+}
+.intro{
+  max-width: 636px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-weight: 500;
+}
+h3{
+  font-size: 28px;
+  color: #0027D5;
+  font-weight: bold;
+  padding: 24px 0;
+}
+.intro-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.intro-content-B{
+  margin: 24px 0 24px 0;
+}
+.text-B{
+  padding: 12px 0 8px 0; 
+}
+span{
+  color: #0027D5;
+}
+.intro-content-C .fs-6-text{
+  background-color: #EDEDED;
+  margin-top: 24px;
+  padding: 24px;
+  font-weight: bold;
+  border-radius: 24px;
+}
+.intro-content-D{
+  margin-top: 48px;
+}
+.intro-content-D .fs-6-text-B{
+  background-color: #EDEDED;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 24px;
+  font-weight: bold;
+  border-radius: 24px;
+}
+.array-d{
+  margin:12px 0 48px 0;
+  list-style: disc;
+  padding-left: 20px;
+}
+.array-e{
+  list-style: disc;
+  padding-left: 20px;
+  padding-top:12px;
+  padding-bottom: 24px;
+}
+.array-f{
+  list-style: disc;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+.array-h{
+  list-style: disc;
+  padding-left: 20px;
+}
+.intro-content-F .fs-6-text-C{
+  background-color: #EDEDED;
+  margin-top: 24px;
+  padding: 24px;
+  font-weight: bold;
+  border-radius: 24px;
+}
+.array-g{
+  list-style: disc;
+  padding-left: 20px;
+  padding-top: 12px;
+}
+.intro-content-F{
+  margin-top: 48px;
+}
+.fs-6-text-M{
+  margin-top: 24px;
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  margin: 48px 0 80px 0;
+}
+.button-prev a{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 40px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+  padding: 0 16px 0 16px;
+}
+.button-next a{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 40px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+  padding: 0 16px 0 16px;
+}
+.prev,.next{
+  font-size: 16px;
+  color: #000;
+}
+.button-prev a:hover,
+.button-next a:hover {
+  background: #0027D5;
+}
+.button-prev a i{
+  margin-right: 5px;
+}
+.button-next a i{
+  margin-left: 5px;
+}
+.button-prev a:hover .prev,
+.button-prev a:hover i,
+.button-next a:hover .next,
+.button-next a:hover i {
+  color: #fff;
+}
+.footer{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+.footer-content a{
+  font-size: 32px;
+  text-decoration: none;
+  color: #000;
+}
+.footer-item{
+  display: flex;
+}
+.copyright{
+  font-weight: bold;
+  text-align: center;
+  padding: 24px 0;
+}
+@media (max-width: 992px){
+  .preface{
+    padding: 0 12px;
+  }
+  .intro{
+    padding: 0 12px;
+  }
+  .footer .footer-content{
+   display: none
+  }
+}
